@@ -186,8 +186,8 @@ group :development do
 
   # Preloading environment
 
-  # gem 'guard-spork', '1.5.1'
-  # gem 'spork',       '1.0.0rc4'
+  gem 'guard-spork', '1.5.1'
+  gem 'spork',       '1.0.0rc4'
 
   # Debugging
   gem 'pry'
@@ -204,9 +204,9 @@ group :test do
 
   # Cucumber (integration tests)
 
-  gem 'capybara',           '2.4.1'
-  gem 'database_cleaner',   '1.3.0'
-  gem 'selenium-webdriver', '2.43.0'
+  gem 'capybara'#,           '2.4.1'
+  gem 'database_cleaner'#,   '1.3.0'
+  gem 'selenium-webdriver'#, '2.43.0'
 
   # General helpers
 
