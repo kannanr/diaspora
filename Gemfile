@@ -146,7 +146,7 @@ gem 'zip-zip'
 #
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 
-# gem 'therubyracer', :platform => :ruby
+gem 'therubyracer', :platform => :ruby
 
 group :production do # we don't install these on travis to speed up test runs
 
@@ -186,8 +186,8 @@ group :development do
 
   # Preloading environment
 
-  gem 'guard-spork', '1.5.1'
-  gem 'spork',       '1.0.0rc4'
+  # gem 'guard-spork', '1.5.1'
+  # gem 'spork',       '1.0.0rc4'
 
   # Debugging
   gem 'pry'
